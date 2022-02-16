@@ -1,4 +1,4 @@
-// filter process.arv from nonNumbers and numbers less than 0;
+// filter process.argv from nonNumbers and numbers less than 0;
 const args = process.argv.filter(elm => !isNaN(elm) && elm >= 0);
 
 
